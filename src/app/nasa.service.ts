@@ -13,6 +13,3 @@ export class NasaService {
     );
   }
 }
-// Le service NasaService contient une méthode getImageOfTheDay qui nous retourne un Observable****
-// Le service NasaService utilise le service HttpClient
-// Le service NasaService est injecté au sein du composant
