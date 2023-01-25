@@ -9,7 +9,7 @@ export class NasaService {
   constructor(public http: HttpClient) {}
   public getImageOfTheDay(): Observable<any> {
     return this.http.get<any>(
-      'https://api.nasa.gov/planetary/apod?api_key=hzOQlel6mNSSakZjqFIv34avY8JTNibKpjKhI89d'
+      `https://api.nasa.gov/planetary/apod?api_key=${apiKey}`
     );
   }
 }
