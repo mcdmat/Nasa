@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs/internal/Observable';
+import { apiKey } from 'src/assets/apikey';
+
 
 @Injectable({
   providedIn: 'root',
